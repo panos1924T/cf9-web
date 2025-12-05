@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="el">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +22,31 @@
       <label for="fldMotorcycle">Μοτοσυκλέτα</label><br>
       <input type="checkbox" name="vehicle3" value="car" id="fldCar">
       <label for="fldCar">Αυτοκίνητο</label> 
+    </div>
+
+    <div>
+      <label for="fldNationality">Υπηκοότητα</label>
+      <select name="nationality" id="fldNationality">
+        <option value="" disabled selected>Επιλέξτε Υπηκοότητα</option>
+        <option value="greek">Ελλάδα</option>
+        <option value="english">Αγγλία</option>
+        <option value="spain">Ισπανία</option>
+      </select>
+    </div>
+
+    <div>
+      <div >
+        <label for="fldFirstName">Όνομα</label>
+        <input type="text" name="firstname" id="fldFirstName" placeholder="Συμπληρώστε Όνομα"  minlength="5" maxlength="15" required>
+      </div>
+      <div>
+        <label for="fldWordExperience">Χρόνια προϋπηρεσίας</label>
+        <input type="number" name="word-experience" id="fldWordExperience" min="3" max="20">
+      </div>
+      <div>
+        <label for="fldEmail">Email</label>
+        <input type="email" name="email" id="fldEmail">
+      </div>
     </div>
   </form>
 
